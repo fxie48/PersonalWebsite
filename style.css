@@ -1,0 +1,177 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*/
+
+.wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+/* Tabs */
+
+.wrapper input[type='radio'] {
+    display: none;
+    
+}
+
+.wrapper label {
+    padding: 25px;
+    background-color: #ffffff;
+    border: #224fe0;
+    border-color: #29009a;
+}
+
+.wrapper .tab {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    order: 1;
+    display: none;
+}
+
+.wrapper input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+/* Felice Xie */
+header {
+    position: top;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+/* Felice Xie */
+header h4 {
+    left: 10%;
+    bottom: 1rem;
+    font-size: 50px;
+    font-family: "Gill Sans";
+}
+
+.name{
+    margin-top: 30px;
+    font-size: 32px;
+    color: #29009a;
+    font-weight: bold;
+}
+
+/* Splash Screen */
+
+.intro {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #bfceff;
+    transition: 1s;
+}
+
+
+.logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+
+.logo {
+    position: relative;
+    display: inline-block; /* allows us to make animations on the span elements relative to the parent div (logo-header) */
+    bottom: -20px;
+    opacity: 1;
+}
+
+.logo.active {
+    bottom: 0px;
+    opacity: 1;
+    transition: ease-in-out 0.5s
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s
+}
+
+/* image */
+img{
+    width: 25vw;
+    border-radius: 50%;
+  }
+
+#introduction_picture.self_portrait {
+    text-align: left;
+
+}
+
+#introduction_paragraph {
+    font-style: italic;
+    margin-top: 50px;
+    color: #646777;
+    text-align: left;
+    width: 500px;
+    height: 160px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+#introduction_paragraph p {
+    font-family: "Lucida Console";
+}
+
+#linkedin {
+    padding-top: 10px;
+    width: 50px;
+}
+
+#linkedin:hover {
+    opacity: 0.5;
+}
+
+#linkedin:visited {
+    opacity: 0.5;
+}
+
+
+#github {
+    width: 50px;
+}
+
+#github:hover {
+    opacity: 0.5;
+}
+
+.describe {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    float: left;
+    width: 240px;
+    height: 160px;
+    right: 200;
+
+  }
+
+.describe span {
+    font-style: bold;
+    text-decoration: underline;
+    color: #29009a;
+    font-size: 32px;
+}
+
+
+

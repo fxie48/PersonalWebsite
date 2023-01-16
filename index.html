@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--Intro Screen-->
+    <div class = "intro">
+        <h1 class = "logo-header">
+            <span class = "logo"> Personal </span> <span class = "logo"> Intro </span>
+        </h1>
+    </div>
+
+<div class="wrapper">
+
+    <!--Introduction Tab-->
+    <input type="radio" id="intro" name="myTabs" checked="checked">
+    <label style="border-style: solid;" for="intro"> Introduction </label>
+    <div class = "tab">
+        <header>
+            <div class = "name" style="text-align: center;"> 
+                <h4> Felice Xie </h4> </div>
+        </header>
+
+        <div id = "introduction_picture" style="display: inline-block; vertical-align: top;">
+            <img id = "self_portrait" src="self_portrait.jpg">
+        </div>
+
+        <div id = "introduction_paragraph" style = "display: inline-block;">
+            <p> "Hi, I'm Felice! Welcome to my website. On here, you will learn more about me, my projects,
+                and my experiences."</p>
+            <a style = "text-decoration:none;" href = "https://linkedin.com/in/felicexie" target="_blank"><img id = "linkedin" src="blue-color-white-background-linkedin-design-logo-sign-symbol-free-vector.webp">
+                </a>
+            <a style = "text-decoration:none;" href = "https://github.gatech.edu/fxie48" target="_blank"> <img id = "github" src="GitHub-Mark.png"> </a>
+        </div>
+
+        <div class = "describe">
+            <span> About Me </span>
+            <ul>
+                <li> Major: Computer Science </li>
+                <li> Year: 4th Year </li>
+                <li> Origin State: Massachusetts </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--Resume Tab-->
+    <input type="radio" id="Resume" name="myTabs">
+    <label style="border-style: solid;" for="Resume"> Resume </label>
+    <div class = "tab">
+        <embed src="Resume.pdf" type="application/pdf" width="100%" height="900px">
+
+    </div>
+
+
+        <script src="index.js">
+        </script>
+    
+ 
+</div>
+</body>
+
+
+</html>
